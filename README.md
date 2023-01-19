@@ -1,2 +1,2 @@
 # WebAppInDocker
-A ASP.NET Core appliation with Docker support. 
+A ASP.NET Core application with Docker support. 
