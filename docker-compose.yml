@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  webappindocker:
+    image: ${DOCKER_REGISTRY-}webappindocker
+    build:
+      context: .
+      dockerfile: WebAppInDocker/Dockerfile
+    ports:
+      - "5000:80"
