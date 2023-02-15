@@ -2,9 +2,9 @@ name: Build and Push a Docker Image
 
 on:
   workflow_dispatch:
-  pull_request:
+  push:
     branches:
-      - 'master'
+      - master
 jobs:
   docker:
     runs-on: ubuntu-latest
